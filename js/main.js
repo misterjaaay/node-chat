@@ -80,12 +80,13 @@ $(document).ready(function () {
 
 
     socket.on('connecting', function () {
-        msg_system('Соединение...');
+        msg_system('Connecting...');
     });
 
     socket.on('connect', function () {
-        msg_system('System: Соединение установлено!');
+        msg_system('System: Connection established!');
         msg_system('Welcome, ' + login);
+        msg_system('Type carefully, every time you make a typo, the errorists win!');
     });
 
     socket.on('message', function (data) {
