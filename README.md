@@ -11,3 +11,8 @@ node js/server.js
 
 
 If you have any questions contact me via email: misterjaaay@gmail.com or skype: mr.jay0130
+
+
+USAGE
+
+default password: qwerty123~
