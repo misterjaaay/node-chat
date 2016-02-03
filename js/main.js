@@ -48,7 +48,7 @@ $(document).ready(function () {
     var login = getCookie("user_logged");
 
     if (!login) {
-        if (window.location.href === 'http://localhost/chat.php') {
+        if (window.location.href === 'http://localhost/chat.php' || window.location.href === 'http://localhost/chat.php#_=_') {
             alert("please login to continue");
             window.location.assign("http://localhost");
         }
